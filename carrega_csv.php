@@ -4,6 +4,8 @@
 	<title>Carregar CSV</title>
 </head>
 <body>
+	
+	<br><br><br>
 	Carregar CSV : <input type="file" name="upload" size="20">
 	<br><br>
 	<hr>
@@ -11,14 +13,13 @@
 
 	<?php
 		
-		phpinfo();
+		
+		$carrega_file = $arrayCSV = array('' => , );[]
+		str_getcsv("$upload")
 
-		#$carrega_file = $arrayCSV = array('' => , );[]
-		#str_getcsv("$upload")
+		$transforma_json = json_encode(value)
 
-		#$transforma_json = json_encode(value)
-
-		#echo "Arquivo JSON", $transforma_json;
+		echo "Arquivo JSON", $transforma_json;
 	
 
 	?>	
