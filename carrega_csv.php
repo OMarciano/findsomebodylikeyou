@@ -12,13 +12,13 @@
 	<?php
 		
 		phpinfo();
-		
-		$carrega_file = $arrayCSV = array('' => , );[]
-		str_getcsv("$upload")
 
-		$transforma_json = json_encode(value)
+		#$carrega_file = $arrayCSV = array('' => , );[]
+		#str_getcsv("$upload")
 
-		echo "Arquivo JSON", $transforma_json;
+		#$transforma_json = json_encode(value)
+
+		#echo "Arquivo JSON", $transforma_json;
 	
 
 	?>	
