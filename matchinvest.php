@@ -212,7 +212,7 @@
                     </div>
                 </div>
 
-                    <div class="col-md-4">
+                   <div class="col-md-4">
                     <div class="card-box p-0">
                         <div class="profile-widget text-center">
                             <div class="bg-custom1 bg-profile"></div>
@@ -236,6 +236,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
 
             
