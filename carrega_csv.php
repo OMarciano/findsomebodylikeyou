@@ -19,7 +19,7 @@
 	if (($handle = fopen("EmpresasIncentivo.csv", "r")) !== FALSE) {
     	while (sizeof($row) < $data)
     		while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-        			echo '<table border='4' class='tabela' cellspacing='0'>
+        			echo "<table border='4' class='tabela' cellspacing='0'>
 
         				<tr>
 
@@ -30,7 +30,7 @@
         						<th>Incentivador</th>
         						<th>Esporte</th>
         						<th>Cultura</th>
-        					</tr>'	
+        					</tr>";	
         				  	 
 
         			     \n;
