@@ -179,10 +179,10 @@
                             <!--knob-->
                             <div class="visible-ie8">
                                 <div class="col-md-12">
-                                    <div class="alert alert-success alert-dismissable">
+                                    <div class="alert alert-warning alert-dismissable">
                                         <button type="button" class="close" data-dismiss="alert"
                                                 aria-hidden="true">&times;</button>
-                                        O seu evento atende os criterios minimos dos investidores abaixo:
+                                        A precisão depende do dispositivo GPS do aparelho cliente!
                                     </div>
                                 </div>
                             </div>
