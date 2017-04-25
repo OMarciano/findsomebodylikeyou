@@ -32,9 +32,9 @@
         					</tr>";
 
         				foreach ($handle as $data) {
-        					echo "$handle";
+        					echo "<tr>$handle</tr>";
 
-        					        				}
+        				}
         			echo "</table";
 
 
