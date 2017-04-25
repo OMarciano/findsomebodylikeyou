@@ -196,7 +196,7 @@
                             <h4>Bill Gates</h4>
                             <p><i class="ti-location-pin"></i> São Paulo</p>
                             <a href="#" class="btn btn-sm btn-success m-t-20">Seguir</a>
-                            <a href="#" class="btn btn-sm btn-info m-t-20">Enviar proposta</a>
+                            <a href="mailto:bill@gates.com" class="btn btn-sm btn-info m-t-20">Enviar proposta</a>
                             <div class="">
                                 <p class="m-t-20 clearfix p-10">Se a vida lhe der uma Microsoft, venda ela pra mim<br/>
                                     CEO at Microsoft<br/>
@@ -221,7 +221,7 @@
                             <h4>Adriana Valverde</h4>
                             <p><i class="ti-location-pin"></i> Londres</p>
                             <a href="#" class="btn btn-sm btn-success m-t-20">Seguir</a>
-                            <a href="#" class="btn btn-sm btn-info m-t-20">Enviar proposta</a>
+                            <a href="mailto:adriana@valverde.com" class="btn btn-sm btn-info m-t-20">Enviar proposta</a>
                             <div class="">
                                 <p class="m-t-20 clearfix p-10">Desejo investir em eventos novos, que necessitem de apoio visual<br/>
                                     CEO at Acre<br/>
