@@ -270,9 +270,9 @@
                             <?php 
                                 $match = isset($_GET['match']);
                                 if ($match >= 2){
-                                    echo "teste"
+                                    echo "teste";
                                 }else{
-                                $match++
+                                $match++;
                                 }
 
                              ?>
