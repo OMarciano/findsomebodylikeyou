@@ -18,6 +18,9 @@
 	$row = 1;
 	if (($handle = fopen("EmpresasIncentivo.csv", "r")) !== FALSE) {
     		while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+
+    			$num = count($data)
+
         			echo "<table border='4' class='tabela' cellspacing='0'>
 
         				<tr>
@@ -31,14 +34,14 @@
         						<th>Cultura</th>
         					</tr>";
 
-        				while ($row < sizeof($data)){
-        					echo "<tr>";
-        							"<td>$row";
-        						"</tr>";
-        					$row++;	
+        				for ($c=0; $c < $num; $c++){
+        					echo "<tr>
+        							<td>$data[$c]</td>;
+        						</tr>";
+        					
         				}
 
-        				}
+        			}
         			echo "</table>";     				  	 
 
         			$data++;
