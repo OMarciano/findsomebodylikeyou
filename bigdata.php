@@ -272,8 +272,9 @@
                                 if ($match >= 2){
                                     echo '<div class="alert alert-success alert-dismissable">
                                         <button type="button" class="close" data-dismiss="alert"
+                                           
                                                 aria-hidden="true">&times;</button>
-                                        Encontramos uma tendencia! Ney Neto Cresceu em sua expectativas de publico
+                                        <center>Encontramos uma tendencia! Ney Neto Cresceu em sua expectativas de publico</center>
                                     </div>';
                                 }else{
                                 $match++;
