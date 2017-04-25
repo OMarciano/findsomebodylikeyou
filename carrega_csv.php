@@ -32,8 +32,8 @@
         					</tr>";
 
         				while ($row < sizeof($data)){
-        					echo "<tr>"
-        							"<td>$row"
+        					echo "<tr>";
+        							"<td>$row";
         						"</tr>";
         					$row++;	
         				}
