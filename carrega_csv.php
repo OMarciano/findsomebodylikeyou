@@ -31,18 +31,18 @@
         						<th>Cultura</th>
         					</tr>";
 
-        				foreach ($handle as $data) {
-        					echo "<tr>$handle</tr>";
+        				while ($row < sizeof($data)){
+        					echo "<tr>"
+        							"<td>$row"
+        						"</tr>";
+        					$row++;	
+        				}
 
         				}
-        			echo "</table";
-
-
-        				  	 
+        			echo "</table>";     				  	 
 
         			$data++;
-        			for ($c=0; $c < $num; $c++) {
-            			echo $data[$c] . "<br />\n";
+        			
         		
     	}
     }	
