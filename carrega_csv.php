@@ -40,6 +40,8 @@ HERE;
 	print "</table> n";        				
 
 	fclose();
+
+	break;
    
 ?>	
 
