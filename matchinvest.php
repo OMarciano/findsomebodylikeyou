@@ -191,7 +191,7 @@
                     <div class="card-box p-0">
                         <div class="profile-widget text-center">
                             <div class="bg-custom1 bg-profile"></div>
-                            <img src="img/images/bill.jepg" class="thumb-lg img-circle img-thumbnail" alt="img"
+                            <img src="img/images/bill.jpeg" class="thumb-lg img-circle img-thumbnail" alt="img"
                                  height="95" width="95">
                             <h4>Bill Gates</h4>
                             <p><i class="ti-location-pin"></i> São Paulo</p>
