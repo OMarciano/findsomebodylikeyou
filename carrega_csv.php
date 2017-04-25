@@ -19,13 +19,9 @@
 	if (($handle = fopen("EmpresasIncentivo.csv", "r")) !== FALSE) {
     	while (sizeof($row) < $data)
     		while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-        			echo <tr>$row
+        			echo '<tr>$row
         					<td>$data
-        				</tr>	
-
-        				 
-
-
+        				  </tr>'	 
 
         			     \n;
         			$data++;
