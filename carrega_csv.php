@@ -11,8 +11,8 @@
 	<hr>
 	<br><br>
 
-<div>
-<?php
+	<div>
+	<?php
 	
 	print <<< HERE
 	  <table border="2" class="tabela">
@@ -37,10 +37,10 @@ HERE;
 HERE;				
   }
 
-	print "</table> n";        				
+		print "</table> n";        				
 
-?>	
-</div>
+	?>	
+	</div>
 
 </body>
 </html>
