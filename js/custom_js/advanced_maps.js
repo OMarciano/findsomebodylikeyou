@@ -16,7 +16,7 @@ $(document).ready(function() {
         color: 'red',
         fillColor: '#f03',
         fillOpacity: 0.5,
-        radius: 500
+        radius: 100
     }).addTo(mymap);
     var polygon = L.polygon([
         [51.509, -0.08],
