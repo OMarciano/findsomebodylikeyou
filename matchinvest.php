@@ -223,7 +223,7 @@
                             <a href="#" class="btn btn-sm btn-success m-t-20">Seguir</a>
                             <a href="#" class="btn btn-sm btn-info m-t-20">Enviar proposta</a>
                             <div class="">
-                                <p class="m-t-20 clearfix p-10">Desejo investir em eventos novos, que necessitem de apoio visual
+                                <p class="m-t-20 clearfix p-10">Desejo investir em eventos novos, que necessitem de apoio visual<br/>
                                     CEO at Acre<br/>
                                     Risco moderado</p>
                                 <div class="social_icons p-10 text-white bg-custom1">
