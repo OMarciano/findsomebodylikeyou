@@ -32,7 +32,7 @@
         						<th>Cultura</th>
         					</tr>";
 
-        			echo "</table"			
+        			echo "</table";			
         				  	 
 
         			$data++;
