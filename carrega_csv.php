@@ -14,16 +14,13 @@
 <?php
 	
 	print <<< HERE
-	<table border='2' class='tabela' cellspacing='0'>
+	<table border='2' class='tabela'>
 		<tr>
-       		<td class='hed' colspan='8'>Tabela de contribuicao</td>
-        	 </tr>	
-        		<tr>
-        	    	<th>CNPJ/CPF</th>
-        			<th>Incentivador</th>
-        			<th>Esporte</th>
-        			<th>Cultura</th>
-        		</tr>
+       		<th>CNPJ/CPF</th>
+        	<th>Incentivador</th>
+        	<th>Esporte</th>
+        	<th>Cultura</th>
+        </tr>
 HERE;
 	$data = file("EmpresasIncentivo.csv");
 	foreach ($data as $line) {
@@ -40,17 +37,7 @@ HERE;
 				
 	}
 
-	print "</table> n";
-    
-		
-
-		
-
-	
-
-        			
-
-        				
+	print "</table> n";        				
    
 ?>	
 
