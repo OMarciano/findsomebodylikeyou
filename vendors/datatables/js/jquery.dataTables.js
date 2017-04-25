@@ -11418,7 +11418,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "Mostrando de _START_ a _END_ of _TOTAL_ entries",
 	
 	
 			/**
@@ -14499,11 +14499,11 @@
 	
 	$.extend( extPagination, {
 		simple: function ( page, pages ) {
-			return [ 'previous', 'next' ];
+			return [ 'voltar', 'proximo' ];
 		},
 	
 		full: function ( page, pages ) {
-			return [  'first', 'previous', 'next', 'last' ];
+			return [  'primeiro', 'previo', 'proximo', 'ultimo' ];
 		},
 	
 		numbers: function ( page, pages ) {
@@ -14511,15 +14511,15 @@
 		},
 	
 		simple_numbers: function ( page, pages ) {
-			return [ 'previous', _numbers(page, pages), 'next' ];
+			return [ 'previo', _numbers(page, pages), 'proximo' ];
 		},
 	
 		full_numbers: function ( page, pages ) {
-			return [ 'first', 'previous', _numbers(page, pages), 'next', 'last' ];
+			return [ 'primeiro', 'previo', _numbers(page, pages), 'proximo', 'ultimo' ];
 		},
 		
 		first_last_numbers: function (page, pages) {
-	 		return ['first', _numbers(page, pages), 'last'];
+	 		return ['primeiro', _numbers(page, pages), 'ultimo'];
 	 	},
 	
 		// For testing and plug-ins to use
