@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Match!</title>
+    <title>API Localizar!</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link rel="shortcut icon" href="img/favicon.ico"/>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -143,7 +143,7 @@
         <section class="content-header">
             <!--section starts-->
             <h1>
-                Match!
+                API
             </h1>
             <ol class="breadcrumb">
                 <li>
@@ -153,11 +153,11 @@
                 </li>
                 <li>
                     <a href="#">
-                    Eventos
+                    API
                     </a>
                 </li>
                 <li class="active">
-                    Match
+                    GPS
                 </li>
             </ol>
         </section>
@@ -168,7 +168,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="ti-pie-chart"></i> Match
+                                <i class="ti-pie-chart"></i> Localize seus visitantes
                             </h3>
                             <span class="pull-right">
                                     <i class="fa fa-fw ti-angle-up clickable"></i>
