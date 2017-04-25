@@ -189,7 +189,7 @@
                                     <div class="alert alert-success alert-dismissable">
                                         <button type="button" class="close" data-dismiss="alert"
                                                 aria-hidden="true">&times;</button>
-                                        O seu evento atende os criterios minimos dos investidores abaixo:
+                                       Você pode exportar essa lista de contatos que autorizaram sua visualização
                                     </div>
                                 </div>
                             </div>
@@ -200,7 +200,7 @@
                     <div class="panel filterable">
                         <div class="panel-heading clearfix  ">
                             <div class="panel-title pull-left">
-                                <i class="ti-export"></i> <b>Want to export data?</b>
+                                <i class="ti-export"></i> <b>Deseja salvar os dados?</b>
                             </div>
                             <div class="tools pull-right"></div>
                         </div>
@@ -209,11 +209,11 @@
                                 <table class="table table-striped" id="table1">
                                     <thead>
                                     <tr>
-                                        <th>First Name</th>
-                                        <th>Last Name</th>
-                                        <th>User email</th>
+                                        <th>Evento</th>
+                                        <th>Empresa</th>
+                                        <th>Email</th>
                                         <th>
-                                            Account Type
+                                            Tipo de evento
                                         </th>
                                     </tr>
                                     </thead>
