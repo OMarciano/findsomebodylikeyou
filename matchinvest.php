@@ -186,7 +186,58 @@
                                 </div>
                             </div>
                             <!-- PALESTRANTES -->
-                          
+            
+    <div class="col-md-4">
+                    <div class="card-box p-0">
+                        <div class="profile-widget text-center">
+                            <div class="bg-custom1 bg-profile"></div>
+                            <img src="img/images/avatar1.jpg" class="thumb-lg img-circle img-thumbnail" alt="img"
+                                 height="95" width="95">
+                            <h4>Addison</h4>
+                            <p><i class="ti-location-pin"></i> London</p>
+                            <a href="#" class="btn btn-sm btn-success m-t-20">Follow</a>
+                            <a href="#" class="btn btn-sm btn-info m-t-20">Send message</a>
+                            <div class="">
+                                <p class="m-t-20 clearfix p-10">It has survived not only five centuries, but also the
+                                    leap into
+                                    electronic typesetting.</p>
+                                <div class="social_icons p-10 text-white bg-custom1">
+                                    <i class="ti-facebook" aria-hidden="true"></i>
+                                    <i class="ti-twitter" aria-hidden="true"></i>
+                                    <i class="ti-google" aria-hidden="true"></i>
+                                    <i class="ti-youtube" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="col-md-4">
+                    <div class="card-box p-0">
+                        <div class="profile-widget text-center">
+                            <div class="bg-custom1 bg-profile"></div>
+                            <img src="img/images/avatar1.jpg" class="thumb-lg img-circle img-thumbnail" alt="img"
+                                 height="95" width="95">
+                            <h4>Addison</h4>
+                            <p><i class="ti-location-pin"></i> London</p>
+                            <a href="#" class="btn btn-sm btn-success m-t-20">Follow</a>
+                            <a href="#" class="btn btn-sm btn-info m-t-20">Send message</a>
+                            <div class="">
+                                <p class="m-t-20 clearfix p-10">It has survived not only five centuries, but also the
+                                    leap into
+                                    electronic typesetting.</p>
+                                <div class="social_icons p-10 text-white bg-custom1">
+                                    <i class="ti-facebook" aria-hidden="true"></i>
+                                    <i class="ti-twitter" aria-hidden="true"></i>
+                                    <i class="ti-google" aria-hidden="true"></i>
+                                    <i class="ti-youtube" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             
                         </div><center>
                         <!--knob ends-->
