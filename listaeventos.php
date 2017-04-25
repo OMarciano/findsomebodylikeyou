@@ -194,6 +194,22 @@
                                 </div>
                             </div>
                             <!-- PALESTRANTES -->
+                             <section class="content-header">
+            <h1>
+                Advanced Tables
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    <a href="index-2.html">
+                        <i class="fa fa-fw ti-home"></i> Dashboard
+                    </a>
+                </li>
+                <li><a href="#"> DataTables</a></li>
+                <li class="active">
+                    Advanced Tables
+                </li>
+            </ol>
+        </section>
                     <div class="row">
                 <div class="col-lg-12">
                     <div class="panel filterable">
