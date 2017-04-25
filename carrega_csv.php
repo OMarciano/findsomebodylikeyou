@@ -30,10 +30,11 @@
         						<th>Incentivador</th>
         						<th>Esporte</th>
         						<th>Cultura</th>
-        					</tr>";	
+        					</tr>";
+
+        			echo "</table"			
         				  	 
 
-        			     \n;
         			$data++;
         			for ($c=0; $c < $num; $c++) {
             			echo $data[$c] . "<br />\n";
