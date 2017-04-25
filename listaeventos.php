@@ -194,22 +194,7 @@
                                 </div>
                             </div>
                             <!-- PALESTRANTES -->
-                             <section class="content-header">
-            <h1>
-                Advanced Tables
-            </h1>
-            <ol class="breadcrumb">
-                <li>
-                    <a href="index-2.html">
-                        <i class="fa fa-fw ti-home"></i> Dashboard
-                    </a>
-                </li>
-                <li><a href="#"> DataTables</a></li>
-                <li class="active">
-                    Advanced Tables
-                </li>
-            </ol>
-        </section>
+
                     <div class="row">
                 <div class="col-lg-12">
                     <div class="panel filterable">
@@ -862,10 +847,18 @@
 <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <script src="https://cdn.jsdelivr.net/g/bootstrap@3.3.7,bootstrap.switch@3.3.2,jquery.nicescroll@3.6.0"></script> <script src="js/app.js" type="text/javascript"></script>
 <!-- end of global js -->
 <!-- begining of page level js -->
-<script src="vendors/jquery-knob/js/jquery.knob.js"></script>
-<script src="js/custom_js/sparkline/jquery.flot.spline.js"></script>
-<script src="js/custom_js/circle_sliders.js"></script>
-<!-- end of page level js -->
+<script type="text/javascript" src="vendors/datatables/js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="vendors/datatables/js/dataTables.bootstrap.js"></script>
+<script type="text/javascript" src="vendors/datatables/js/dataTables.buttons.js"></script>
+<script type="text/javascript" src="vendors/datatables/js/dataTables.colReorder.js"></script>
+<script type="text/javascript" src="vendors/datatables/js/dataTables.responsive.js"></script>
+<script type="text/javascript" src="vendors/datatables/js/dataTables.rowReorder.js"></script>
+<script type="text/javascript" src="vendors/datatables/js/buttons.colVis.js"></script>
+<script type="text/javascript" src="vendors/datatables/js/buttons.html5.js"></script>
+<script type="text/javascript" src="vendors/datatables/js/buttons.bootstrap.js"></script>
+<script type="text/javascript" src="vendors/datatables/js/buttons.print.js"></script>
+<script type="text/javascript" src="vendors/datatables/js/dataTables.scroller.js"></script>
+<script src="js/custom_js/advanced_datatables.js" type="text/javascript"></script>
 </body>
 
 
