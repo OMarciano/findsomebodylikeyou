@@ -5,14 +5,14 @@ $(document).ready(function() {
 
 //Basic map
 
-    var mymap = L.map('advanced_map').setView([51.505, -0.09], 13);
+    var mymap = L.map('advanced_map').setView([-23.5578561, -46.670285], 17);
     L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token={accessToken}', {
         maxZoom: 18,
         id: 'advanced_map',
         accessToken: my_token
     }).addTo(mymap);
-    var marker = L.marker([51.5, -0.09]).addTo(mymap);
-    var circle = L.circle([51.508, -0.11], {
+    var marker = L.marker([-23.5578561, -46.670285]).addTo(mymap);
+    var circle = L.circle([-23.5578561, -46.670285], {
         color: 'red',
         fillColor: '#f03',
         fillOpacity: 0.5,
@@ -23,7 +23,7 @@ $(document).ready(function() {
         [51.503, -0.06],
         [51.51, -0.047]
     ]).addTo(mymap);
-    marker.bindPopup("<b>Hello world!</b>").openPopup();
+    marker.bindPopup("<b>Marciano!</b>").openPopup();
 
     var left_height = $(window).height() - 1;
     $('.wrapper').css('height', left_height);
