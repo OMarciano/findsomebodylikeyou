@@ -229,8 +229,7 @@
                 <center><h1>COMPARANDO MATCHS</h1></center>
                 <?php 
                 sleep(2);
-                echo '<meta http-equiv="refresh" content="1; URL=matchinvest.php'>";
- ?>
+                echo '<meta http-equiv="refresh" content="1; URL=matchinvest.php">'; ?>
             <!--rightside bar -->
             <div id="right">
                 <div id="right-slim">
