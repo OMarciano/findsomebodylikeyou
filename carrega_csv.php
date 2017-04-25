@@ -11,10 +11,11 @@
 	<hr>
 	<br><br>
 
+<div>
 <?php
 	
 	print <<< HERE
-	  <table border='2' class='tabela'>
+	  <table border="2" class="tabela">
 		<tr>
        		<th>CNPJ/CPF</th>
         	<th>Incentivador</th>
@@ -33,18 +34,13 @@ HERE;
 		    <td>$esporte</td>
 		    <td>$cultura</td>
 		  </tr>
-HERE;		  
-				
-	}
+HERE;				
+  }
 
 	print "</table> n";        				
 
-	fclose();
-
-	break;
-   
-   end here;
 ?>	
+</div>
 
 </body>
 </html>
