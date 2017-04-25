@@ -12,49 +12,46 @@
 	<br><br>
 
 <?php
+	
+	print <<< HERE
+	<table border='2' class='tabela' cellspacing='0'>
+		<tr>
+       		<td class='hed' colspan='8'>Tabela de contribuicao</td>
+        	 </tr>	
+        		<tr>
+        	    	<th>CNPJ/CPF</th>
+        			<th>Incentivador</th>
+        			<th>Esporte</th>
+        			<th>Cultura</th>
+        		</tr>
+HERE;
+	$data = file("EmpresasIncentivo.csv");
+	foreach ($data as $line) {
+		$lineArray = explode("t", $line);
+		list($cpfcnpj, $incentivador, $esporte, $cultura) = $lineArray;
+		print <<< HERE
+		  <tr>
+		    <td>$cpfcnpj</td>
+		    <td>$incentivador</td>
+		    <td>$esporte</td>
+		    <td>$cultura</td>
+		  </tr>
+HERE;		  
+				
+	}
+
+	print "</table> n";
+    
 		
+
 		
 
-	$row = 1;
-	if (($handle = fopen("EmpresasIncentivo.csv", "r")) !== FALSE) {
-    		while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+	
 
-    			$num = count($data)
-
-        			echo "<table border='4' class='tabela' cellspacing='0'>
-
-        				<tr>
-
-        					<td class='hed' colspan='8'>Tabela de contribuicao</td>
-        				</tr>	
-        					<tr>
-        						<th>CNPJ/CPF</th>
-        						<th>Incentivador</th>
-        						<th>Esporte</th>
-        						<th>Cultura</th>
-        					</tr>";
-
-        				for ($c=0; $c < $num; $c++){
-        					echo "<tr>
-        							<td>$data[$c]</td>;
-        						</tr>";
-        					
-        				}
-
-        			}
-        			echo "</table>";     				  	 
-
-        			$data++;
         			
-        		
-    	}
-    }	
 
-
-    fclose($handle);
-
-
-}
+        				
+   
 ?>	
 
 </body>
