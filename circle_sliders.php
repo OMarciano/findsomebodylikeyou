@@ -270,10 +270,19 @@
                             <?php 
                                 $match = isset($_GET['match']);
                                 if ($match >= 2){
-                                    echo "teste";
+                                    echo "<div class="alert alert-success alert-dismissable">
+                                        <button type="button" class="close" data-dismiss="alert"
+                                                aria-hidden="true">&times;</button>
+                                        Encontramos uma tendencia! Ney Neto Cresceu em sua expectativas de publico
+                                    </div>";
                                 }else{
                                 $match++;
                                 }
+
+                             if ($match == 0){
+                             echo "<center><a href="https://evstarts.com/bigdata?match=1">Dar match - DEMO</a></center>"
+                             }
+                             
 
                              ?>
                           <br/>  
