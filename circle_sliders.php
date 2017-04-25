@@ -270,11 +270,11 @@
                             <?php 
                                 $match = isset($_GET['match']);
                                 if ($match >= 2){
-                                    echo "<div class="alert alert-success alert-dismissable">
+                                    echo '<div class="alert alert-success alert-dismissable">
                                         <button type="button" class="close" data-dismiss="alert"
                                                 aria-hidden="true">&times;</button>
                                         Encontramos uma tendencia! Ney Neto Cresceu em sua expectativas de publico
-                                    </div>";
+                                    </div>';
                                 }else{
                                 $match++;
                                 }
