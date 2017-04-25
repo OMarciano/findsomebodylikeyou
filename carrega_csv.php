@@ -14,7 +14,7 @@
 <?php
 	
 	print <<< HERE
-	<table border='2' class='tabela'>
+	  <table border='2' class='tabela'>
 		<tr>
        		<th>CNPJ/CPF</th>
         	<th>Incentivador</th>
