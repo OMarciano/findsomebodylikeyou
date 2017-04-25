@@ -22,7 +22,7 @@
         	<th>Cultura</th>
         </tr>
 HERE;
-	$data = file("EmpresasIncentivo.csv");
+	$data = fgetcsv("EmpresasIncentivo.csv");
 	foreach ($data as $line) {
 		$lineArray = explode("t", $line);
 		list($cpfcnpj, $incentivador, $esporte, $cultura) = $lineArray;
@@ -38,6 +38,8 @@ HERE;
 	}
 
 	print "</table> n";        				
+
+	fclose();
    
 ?>	
 
