@@ -280,7 +280,7 @@
                                 }
 
                              if ($match == 0){
-                             echo '<center><a href="https://evstarts.com/bigdata?match=1">Dar match - DEMO</a></center>';
+                             echo '<center><a href="https://evstarts.com/bigdata.php?match=1">Dar match - DEMO</a></center>';
                              }
                              
 
