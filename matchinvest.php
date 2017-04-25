@@ -1,11 +1,13 @@
+<!DOCTYPE html>
 <html>
+
+
+
 <head>
     <meta charset="UTF-8">
-    <title>Solicitação de inclusão</title>
+    <title>Big Data API</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link rel="shortcut icon" href="img/favicon.ico"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/core.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -15,20 +17,16 @@
     <!-- global css -->
     <link type="text/css" href="css/app.css" rel="stylesheet"/>
     <!-- end of global css -->
-    <!--page level css-->
-    <link href="vendors/iCheck/css/all.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="vendors/gridforms/css/gridforms.css">
-    <link rel="stylesheet" type="text/css" href="vendors/datedropper/datedropper.css">
-    <link href="vendors/airdatepicker/css/datepicker.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="vendors/select2/css/select2.min.css">
-    <link href="vendors/select2/css/select2-bootstrap.css" rel="stylesheet" type="text/css">
+    <!--page level css -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link rel="stylesheet" type="text/css" href="css/custom_css/circle_sliders.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="css/complex_forms.css">
+    <link rel="stylesheet" type="text/css" href="css/custom_css/circle_sliders.css">
     <!--end of page level css-->
 
 </head>
+
 <body class="skin-default">
 <div class="preloader">
     <div class="loader_img"><img src="img/loader.gif" alt="loading..." height="64" width="64"></div>
@@ -36,97 +34,17 @@
 <!-- header logo: style can be found in header-->
 <header class="header">
     <nav class="navbar navbar-static-top" role="navigation">
-        <a href="index.html" class="logo">
-            <!-- Add the class icon to your logo image or logo icon to add the marginin -->
+        <a href="index.html">
+            <!-- Add the class icon to your logo image or logo icon to add the margining -->
             <img src="img/logo.png" width="100" height="35" />
         </a>
         <!-- Header Navbar: style can be found in header-->
         <!-- Sidebar toggle button-->
+        <!-- Sidebar toggle button-->
         <div>
-            <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button"> <i
-                    class="fa fa-fw ti-menu"></i>
-            </a>
+            
         </div>
-        <div class="navbar-right">
-            <ul class="nav navbar-nav">
-                <li class="dropdown messages-menu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-fw ti-email black"></i>
-                        <span class="label label-success"></span>
-                    </a>
-                    <ul class="dropdown-menu dropdown-messages table-striped">
-                        <li class="dropdown-title">New Messages</li>
-                        <li>
-                            <a href="#" class="message striped-col">
-                                <img class="message-image img-circle" src="img/authors/avatar7.jpg" alt="avatar-image">
-
-                                <div class="message-body"><strong>Ernest Kerry</strong>
-                                    <br>
-                                    Can we Meet?
-                                    <br>
-                                    <small>Just Now</small>
-                                    <span class="label label-success label-mini msg-lable">New</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="message">
-                                <img class="message-image img-circle" src="img/authors/avatar6.jpg" alt="avatar-image">
-
-                                <div class="message-body"><strong>John</strong>
-                                    <br>
-                                    Dont forgot to call...
-                                    <br>
-                                    <small>5 minutes ago</small>
-                                    <span class="label label-success label-mini msg-lable">New</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="message striped-col">
-                                <img class="message-image img-circle" src="img/authors/avatar5.jpg" alt="avatar-image">
-
-                                <div class="message-body">
-                                    <strong>Wilton Zeph</strong>
-                                    <br>
-                                    If there is anything else &hellip;
-                                    <br>
-                                    <small>14/10/2014 1:31 pm</small>
-                                </div>
-
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="message">
-                                <img class="message-image img-circle" src="img/authors/man.png" alt="avatar-image">
-                                <div class="message-body">
-                                    <strong>Jenny Kerry</strong>
-                                    <br>
-                                    Let me know when you free
-                                    <br>
-                                    <small>5 days ago</small>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="message striped-col">
-                                <img class="message-image img-circle" src="img/authors/avatar.jpg" alt="avatar-image">
-                                <div class="message-body">
-                                    <strong>Tony</strong>
-                                    <br>
-                                    Let me know when you free
-                                    <br>
-                                    <small>5 days ago</small>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="dropdown-footer"><a href="#"> View All messages</a></li>
-                    </ul>
-
-                </li>
-                <!--rightside toggle-->
-    
-            </ul>
-        </div>
+   
     </nav>
 </header>
 <div class="wrapper row-offcanvas row-offcanvas-left">
@@ -138,27 +56,30 @@
                 <div class="nav_profile">
                     <div class="media profile-left">
                         <a class="pull-left profile-thumb" href="#">
-                            <img src="img/authors/man.png" class="img-circle" alt="User Image"></a>
+                            <img src="img/authors/man.png" class="img-circle" alt="User Image">
+                        </a>
                         <div class="content-profile">
-                            <h4 class="media-heading">Marciano</h4>
+                            <h4 class="media-heading">
+                                Marciano
+                            </h4>
                             <ul class="icon-list">
                                 <li>
-                                    <a href="#">
+                                    <a href="users.html">
                                         <i class="fa fa-fw ti-user"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="lockscreen.html">
                                         <i class="fa fa-fw ti-lock"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="edit_user.html">
                                         <i class="fa fa-fw ti-settings"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="login.html">
                                         <i class="fa fa-fw ti-shift-right"></i>
                                     </a>
                                 </li>
@@ -166,7 +87,7 @@
                         </div>
                     </div>
                 </div>
-                <ul class="navigation">
+                         <ul class="navigation">
                     <li class="active" id="active">
                         <a href="index-2.html">
                             <i class="menu-icon ti-desktop"></i>
@@ -211,11 +132,6 @@
                 
                 </ul>
                 <!-- / .navigation -->
-                <!-- / .navigation -->
-            </div>
-            <!-- menu -->
-        </section>
-        <!-- /.sidebar -->
             </div>
             <!-- menu -->
         </section>
@@ -223,13 +139,114 @@
     </aside>
     <aside class="right-side">
         <!-- Content Header (Page header) -->
-
-        <!-- Main content -->
+        <section class="content-header">
+            <!--section starts-->
+            <h1>
+                Match!
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    <a href="index-2.html">
+                        <i class="fa fa-fw ti-home"></i> Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    Eventos
+                    </a>
+                </li>
+                <li class="active">
+                    Match
+                </li>
+            </ol>
+        </section>
         <section class="content">
-                <center><h1>COMPARANDO MATCHS</h1></center>
-                <?php 
-                sleep(2);
-                echo '<meta http-equiv="refresh" content="1; URL=matchinvest.php">'; ?>
+            <!--main content-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="ti-pie-chart"></i> Match
+                            </h3>
+                            <span class="pull-right">
+                                    <i class="fa fa-fw ti-angle-up clickable"></i>
+                                    <i class="fa fa-fw ti-close removepanel clickable"></i>
+                                </span>
+                        </div>
+                        <div class="panel-body">
+                            <!--knob-->
+                            <div class="visible-ie8">
+                                <div class="col-md-12">
+                                    <div class="alert alert-warning alert-dismissable">
+                                        <button type="button" class="close" data-dismiss="alert"
+                                                aria-hidden="true">&times;</button>
+                                        Pode demorar até 3 minutos para atualizar!
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- PALESTRANTES -->
+            
+    <div class="col-md-4">
+                    <div class="card-box p-0">
+                        <div class="profile-widget text-center">
+                            <div class="bg-custom1 bg-profile"></div>
+                            <img src="img/images/avatar1.jpg" class="thumb-lg img-circle img-thumbnail" alt="img"
+                                 height="95" width="95">
+                            <h4>Addison</h4>
+                            <p><i class="ti-location-pin"></i> London</p>
+                            <a href="#" class="btn btn-sm btn-success m-t-20">Follow</a>
+                            <a href="#" class="btn btn-sm btn-info m-t-20">Send message</a>
+                            <div class="">
+                                <p class="m-t-20 clearfix p-10">It has survived not only five centuries, but also the
+                                    leap into
+                                    electronic typesetting.</p>
+                                <div class="social_icons p-10 text-white bg-custom1">
+                                    <i class="ti-facebook" aria-hidden="true"></i>
+                                    <i class="ti-twitter" aria-hidden="true"></i>
+                                    <i class="ti-google" aria-hidden="true"></i>
+                                    <i class="ti-youtube" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="col-md-4">
+                    <div class="card-box p-0">
+                        <div class="profile-widget text-center">
+                            <div class="bg-custom1 bg-profile"></div>
+                            <img src="img/images/avatar1.jpg" class="thumb-lg img-circle img-thumbnail" alt="img"
+                                 height="95" width="95">
+                            <h4>Addison</h4>
+                            <p><i class="ti-location-pin"></i> London</p>
+                            <a href="#" class="btn btn-sm btn-success m-t-20">Follow</a>
+                            <a href="#" class="btn btn-sm btn-info m-t-20">Send message</a>
+                            <div class="">
+                                <p class="m-t-20 clearfix p-10">It has survived not only five centuries, but also the
+                                    leap into
+                                    electronic typesetting.</p>
+                                <div class="social_icons p-10 text-white bg-custom1">
+                                    <i class="ti-facebook" aria-hidden="true"></i>
+                                    <i class="ti-twitter" aria-hidden="true"></i>
+                                    <i class="ti-google" aria-hidden="true"></i>
+                                    <i class="ti-youtube" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            
+                        </div><center>
+                        <!--knob ends-->
+                    </div>
+                </div>
+            </div>
+            <!-- sparkline -->
+       
+            <!-- sparkline -->
             <!--rightside bar -->
             <div id="right">
                 <div id="right-slim">
@@ -238,16 +255,15 @@
                             <div class="panel-tabs">
                                 <ul class="nav nav-tabs nav-float" role="tablist">
                                     <li class="active text-center">
-                                        <a href="#r_tab1" role="tab" data-toggle="tab">
-                                            <i class="fa fa-fw ti-comments"></i></a>
+                                        <a href="#r_tab1" role="tab" data-toggle="tab"><i
+                                                class="fa fa-fw ti-comments"></i></a>
                                     </li>
                                     <li class="text-center">
-                                        <a href="#r_tab2" role="tab" data-toggle="tab">
-                                            <i class="fa fa-fw ti-bell"></i></a>
+                                        <a href="#r_tab2" role="tab" data-toggle="tab"><i class="fa fa-fw ti-bell"></i></a>
                                     </li>
                                     <li class="text-center">
-                                        <a href="#r_tab3" role="tab" data-toggle="tab">
-                                            <i class="fa fa-fw ti-settings"></i></a>
+                                        <a href="#r_tab3" role="tab" data-toggle="tab"><i
+                                                class="fa fa-fw ti-settings"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -260,7 +276,7 @@
                                         </h5>
                                         <ul class="list-unstyled margin-none">
                                             <li class="rightsidebar-contact-wrapper">
-                                                <a class="rightsidebar-contact" href="javascript:void(0)">
+                                                <a class="rightsidebar-contact" href="#">
                                                     <img src="img/authors/avatar6.jpg"
                                                          class="img-circle pull-right" alt="avatar-image">
                                                     <i class="fa fa-circle text-xs text-primary"></i>
@@ -268,7 +284,7 @@
                                                 </a>
                                             </li>
                                             <li class="rightsidebar-contact-wrapper">
-                                                <a class="rightsidebar-contact" href="javascript:void(0)">
+                                                <a class="rightsidebar-contact" href="#">
                                                     <img src="img/authors/avatar.jpg"
                                                          class="img-circle pull-right" alt="avatar-image">
                                                     <i class="fa fa-circle text-xs text-primary"></i>
@@ -276,7 +292,7 @@
                                                 </a>
                                             </li>
                                             <li class="rightsidebar-contact-wrapper">
-                                                <a class="rightsidebar-contact" href="javascript:void(0)">
+                                                <a class="rightsidebar-contact" href="#">
                                                     <img src="img/authors/avatar2.jpg"
                                                          class="img-circle pull-right" alt="avatar-image">
                                                     <i class="fa fa-circle text-xs text-primary"></i>
@@ -284,7 +300,7 @@
                                                 </a>
                                             </li>
                                             <li class="rightsidebar-contact-wrapper">
-                                                <a class="rightsidebar-contact" href="javascript:void(0)">
+                                                <a class="rightsidebar-contact" href="#">
                                                     <img src="img/authors/avatar3.jpg"
                                                          class="img-circle pull-right" alt="avatar-image">
                                                     <i class="fa fa-circle text-xs text-warning"></i>
@@ -292,7 +308,7 @@
                                                 </a>
                                             </li>
                                             <li class="rightsidebar-contact-wrapper">
-                                                <a class="rightsidebar-contact" href="javascript:void(0)">
+                                                <a class="rightsidebar-contact" href="#">
                                                     <img src="img/authors/avatar4.jpg"
                                                          class="img-circle pull-right" alt="avatar-image">
                                                     <i class="fa fa-circle text-xs text-danger"></i>
@@ -300,7 +316,7 @@
                                                 </a>
                                             </li>
                                             <li class="rightsidebar-contact-wrapper">
-                                                <a class="rightsidebar-contact" href="javascript:void(0)">
+                                                <a class="rightsidebar-contact" href="#">
                                                     <img src="img/authors/avatar5.jpg"
                                                          class="img-circle pull-right" alt="avatar-image">
                                                     <i class="fa fa-circle text-xs text-muted"></i>
@@ -308,7 +324,7 @@
                                                 </a>
                                             </li>
                                             <li class="rightsidebar-contact-wrapper">
-                                                <a class="rightsidebar-contact" href="javascript:void(0)">
+                                                <a class="rightsidebar-contact" href="#">
                                                     <img src="img/authors/avatar7.jpg"
                                                          class="img-circle pull-right" alt="avatar-image">
                                                     <i class="fa fa-circle text-xs text-muted"></i>
@@ -324,49 +340,49 @@
                                         <div>
                                             <ul class="list-unstyled">
                                                 <li class="rightsidebar-notification">
-                                                    <a href="javascript:void(0)">
+                                                    <a href="#">
                                                         <i class="fa ti-comments-smiley fa-fw text-primary"></i>
                                                         New Comment
                                                     </a>
                                                 </li>
                                                 <li class="rightsidebar-notification">
-                                                    <a href="javascript:void(0)">
+                                                    <a href="#">
                                                         <i class="fa ti-twitter-alt fa-fw text-success"></i>
                                                         3 New Followers
                                                     </a>
                                                 </li>
                                                 <li class="rightsidebar-notification">
-                                                    <a href="javascript:void(0)">
+                                                    <a href="#">
                                                         <i class="fa ti-email fa-fw text-info"></i>
                                                         Message Sent
                                                     </a>
                                                 </li>
                                                 <li class="rightsidebar-notification">
-                                                    <a href="javascript:void(0)">
+                                                    <a href="#">
                                                         <i class="fa ti-write fa-fw text-warning"></i>
                                                         New Task
                                                     </a>
                                                 </li>
                                                 <li class="rightsidebar-notification">
-                                                    <a href="javascript:void(0)">
+                                                    <a href="#">
                                                         <i class="fa ti-export fa-fw text-danger"></i>
                                                         Server Rebooted
                                                     </a>
                                                 </li>
                                                 <li class="rightsidebar-notification">
-                                                    <a href="javascript:void(0)">
+                                                    <a href="#">
                                                         <i class="fa ti-info-alt fa-fw text-primary"></i>
                                                         Server Not Responding
                                                     </a>
                                                 </li>
                                                 <li class="rightsidebar-notification">
-                                                    <a href="javascript:void(0)">
+                                                    <a href="#">
                                                         <i class="fa ti-shopping-cart fa-fw text-success"></i>
                                                         New Order Placed
                                                     </a>
                                                 </li>
                                                 <li class="rightsidebar-notification">
-                                                    <a href="javascript:void(0)">
+                                                    <a href="#">
                                                         <i class="fa ti-money fa-fw text-info"></i>
                                                         Payment Received
                                                     </a>
@@ -451,7 +467,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="text-right noti-footer"><a href="javascript:void(0)">View All Notifications <i
+                                            <li class="text-right noti-footer"><a href="#">View All Notifications <i
                                                     class="ti-arrow-right"></i></a></li>
                                         </ul>
                                         <h5 class="rightsidebar-right-heading text-uppercase text-xs">
@@ -521,7 +537,7 @@
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li class="text-right"><a href="javascript:void(0)">View All Tasks <i
+                                            <li class="text-right"><a href="#">View All Tasks <i
                                                     class="ti-arrow-right"></i></a>
                                             </li>
                                         </ul>
@@ -597,16 +613,16 @@
     </aside>
     <!-- /.right-side -->
 </div>
-<!-- /.right-side -->
 <!-- ./wrapper -->
 <!-- global js -->
-<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/g/bootstrap@3.3.7,bootstrap.switch@3.3.2,jquery.nicescroll@3.6.0"></script>
-<script src="js/app.js" type="text/javascript"></script>
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <script src="https://cdn.jsdelivr.net/g/bootstrap@3.3.7,bootstrap.switch@3.3.2,jquery.nicescroll@3.6.0"></script> <script src="js/app.js" type="text/javascript"></script>
+<!-- end of global js -->
+<!-- begining of page level js -->
+<script src="vendors/jquery-knob/js/jquery.knob.js"></script>
+<script src="js/custom_js/sparkline/jquery.flot.spline.js"></script>
+<script src="js/custom_js/circle_sliders.js"></script>
 <!-- end of page level js -->
-
 </body>
 
 
-<!-- Mirrored from clear.lcrm.in/light/blank.html by HTTrack Website Copier/3.x [XR&CO'2013], Mon, 24 Apr 2017 18:52:13 GMT -->
 </html>
