@@ -31,7 +31,13 @@
         						<th>Cultura</th>
         					</tr>";
 
-        			echo "</table";			
+        				foreach ($handle as $data) {
+        					echo "$handle"
+
+        					        				}
+        			echo "</table";
+
+
         				  	 
 
         			$data++;
