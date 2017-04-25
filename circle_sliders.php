@@ -267,7 +267,17 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>*2=otimo, 1=bom, 0=normal, -1=ruim, -2=pessimo    
+                            <?php 
+                                $match = isset($_GET['match']);
+                                if ($match >= 2){
+                                    echo "teste"
+                                }else{
+                                $match++
+                                }
+
+                             ?>
+                          <br/>  
+                        </div><center><b>*2=otimo, 1=bom, 0=normal, -1=ruim, -2=pessimo</b></center>    
                         <!--knob ends-->
                     </div>
                 </div>
